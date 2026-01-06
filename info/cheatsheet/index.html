@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.7.0">
+     
+     
+    <link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>Markdown Cheatsheet - My Docs</title>
+
+
+<link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../../css/normalize.css" rel="stylesheet">
+<link href="../../css/terminal.css" rel="stylesheet">
+<link href="../../css/theme.css" rel="stylesheet">
+<link href="../../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../../css/theme.footer.css" rel="stylesheet">
+<!-- dark color palette -->
+<link href="../../css/palettes/dark.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/*  
+*   when side navigation is not hidden, use a two column grid.  
+*   if the screen is too narrow, fall back to the initial one column grid layout.
+*   in this case the main content will be placed under the navigation panel. 
+*/
+@media only screen and (min-width: 70em) {
+    .terminal-mkdocs-main-grid {
+        grid-template-columns: 4fr 9fr;
+    }
+}</style>
+
+
+
+    
+    <link href="../../assets/style.css" rel="stylesheet">  
+    
+    
+
+    
+    <!-- search css support -->
+<link href="../../css/search/bootstrap-modal.css" rel="stylesheet">
+<!-- search scripts -->
+<script>
+    var base_url = "../..",
+    shortcuts = "{}";
+</script>
+<script src="../../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../../js/mkdocs/base.js" defer></script>
+    
+    
+    
+    
+    <script src="../../assets/code.js"></script>
+    
+    <script src="../../search/main.js"></script>
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="/" class="no-style">My Docs</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../.." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Home</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                
+                
+                
+                    
+                    
+
+
+<li property="itemListElement" typeof="ListItem">
+    <a href="#" class="menu-item" data-toggle="modal" data-target="#mkdocs_search_modal" property="item" typeof="SearchAction">
+        <i aria-hidden="true" class="fa fa-search"></i> <span property="name">Search</span>
+    </a>
+    <meta property="position" content="1">
+</li>
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid"><aside id="terminal-mkdocs-side-panel"><nav>
+  
+    <ul class="terminal-mkdocs-side-nav-items">
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../..">Home</a>
+        
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+        
+        
+
+        
+            
+    
+        
+        <span class="
+        
+    
+
+    terminal-mkdocs-side-nav-item--active terminal-mkdocs-side-nav-section-no-index">User Guide</span>
+    
+    
+        
+      
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        <span class="
+
+    terminal-mkdocs-side-nav-item--active">Markdown Cheatsheet</span>
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+        
+        
+
+        
+            
+    
+        
+        
+            
+            
+            <span class="
+        
+    
+
+    terminal-mkdocs-side-nav-item terminal-mkdocs-side-nav-section-no-index">About</span>
+        
+    
+    
+        
+      
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="https://google.com">License</a>
+        
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+  </li>
+        
+    </ul>
+  
+</nav><hr>
+<nav>
+    <ul>
+        <li><a href="#markdown-cheatsheet">Markdown Cheatsheet</a></li>
+        <li><a href="#horizontal-rules">Horizontal Rules</a></li><li><a href="#typographic-replacements">Typographic replacements</a></li><li><a href="#emphasis">Emphasis</a></li><li><a href="#blockquotes">Blockquotes</a></li><li><a href="#lists">Lists</a></li><li><a href="#code">Code</a></li><li><a href="#tables">Tables</a></li><li><a href="#links">Links</a></li><li><a href="#images">Images</a></li><li><a href="#plugins">Plugins</a></li>
+    </ul>
+</nav>
+</aside>
+            <main id="terminal-mkdocs-main-content">
+<section id="mkdocs-terminal-content">
+    <h1 id="markdown-cheatsheet">Markdown Cheatsheet</h1>
+<h2 id="horizontal-rules">Horizontal Rules</h2>
+<hr />
+<hr />
+<hr />
+<h2 id="typographic-replacements">Typographic replacements</h2>
+<p>Enable typographer option to see result.</p>
+<p>(c) (C) (r) (R) (tm) (TM) (p) (P) +-</p>
+<p>test.. test... test..... test?..... test!....</p>
+<p>!!!!!! ???? ,,  -- ---</p>
+<p>"Smartypants, double quotes" and 'single quotes'</p>
+<h2 id="emphasis">Emphasis</h2>
+<p><strong>This is bold text</strong></p>
+<p><strong>This is bold text</strong></p>
+<p><em>This is italic text</em></p>
+<p><em>This is italic text</em></p>
+<p>~~Strikethrough~~</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<blockquote>
+<p>Blockquotes can also be nested...</p>
+<blockquote>
+<p>...by using additional greater-than signs right next to each other...</p>
+<blockquote>
+<p>...or with spaces between arrows.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="lists">Lists</h2>
+<p>Unordered</p>
+<ul>
+<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
+<li>Sub-lists are made by indenting 2 spaces:</li>
+<li>Marker character change forces new list start:<ul>
+<li>Ac tristique libero volutpat at</li>
+<li>Facilisis in pretium nisl aliquet</li>
+<li>Nulla volutpat aliquam velit</li>
+</ul>
+</li>
+<li>Very easy!</li>
+</ul>
+<p>Ordered</p>
+<ol>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit</li>
+<li>
+<p>Integer molestie lorem at massa</p>
+</li>
+<li>
+<p>You can use sequential numbers...</p>
+</li>
+<li>...or keep all the numbers as <code>1.</code></li>
+</ol>
+<p>Start numbering with offset:</p>
+<ol>
+<li>foo</li>
+<li>bar</li>
+</ol>
+<h2 id="code">Code</h2>
+<p>Inline <code>code</code></p>
+<p>Indented code</p>
+<pre><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre>
+<p>Block code "fences"</p>
+<pre><code>Sample text here...
+</code></pre>
+<p>Syntax highlighting</p>
+<pre><code class="language-js">var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+</code></pre>
+<h2 id="tables">Tables</h2>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td>path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td>engine</td>
+<td>engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td>ext</td>
+<td>extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+<p>Right aligned columns</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Option</th>
+<th style="text-align: right;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">data</td>
+<td style="text-align: right;">path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td style="text-align: right;">engine</td>
+<td style="text-align: right;">engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td style="text-align: right;">ext</td>
+<td style="text-align: right;">extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="links">Links</h2>
+<p><a href="http://dev.nodeca.com">link text</a></p>
+<p><a href="http://nodeca.github.io/pica/demo/" title="title text!">link with title</a></p>
+<p>Autoconverted link https://github.com/nodeca/pica (enable linkify to see)</p>
+<h2 id="images">Images</h2>
+<p><img alt="Minion" src="https://octodex.github.com/images/minion.png" />
+<img alt="Stormtroopocat" src="https://octodex.github.com/images/stormtroopocat.jpg" title="The Stormtroopocat" /></p>
+<p>Like links, Images also have a footnote style syntax</p>
+<p><img alt="Alt text" src="https://octodex.github.com/images/dojocat.jpg" title="The Dojocat" /></p>
+<p>With a reference later in the document defining the URL location:</p>
+<h2 id="plugins">Plugins</h2>
+<p>The killer feature of <code>markdown-it</code> is very effective support of
+<a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin">syntax plugins</a>.</p>
+<h3 id="emojies"><a href="https://github.com/markdown-it/markdown-it-emoji">Emojies</a></h3>
+<blockquote>
+<p>Classic markup: :wink: :cry: :laughing: :yum:</p>
+<p>Shortcuts (emoticons): :-) :-( 8-) ;)</p>
+</blockquote>
+<p>see <a href="https://github.com/markdown-it/markdown-it-emoji#change-output">how to change output</a> with twemoji.</p>
+<h3 id="subscript-superscript"><a href="https://github.com/markdown-it/markdown-it-sub">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup">Superscript</a></h3>
+<ul>
+<li>19^th^</li>
+<li>H~2~O</li>
+</ul>
+<h3 id="_1"><a href="https://github.com/markdown-it/markdown-it-ins">\<ins></a></h3>
+<p>++Inserted text++</p>
+<h3 id="_2"><a href="https://github.com/markdown-it/markdown-it-mark">\<mark></a></h3>
+<p>==Marked text==</p>
+<h3 id="footnotes"><a href="https://github.com/markdown-it/markdown-it-footnote">Footnotes</a></h3>
+<p>Footnote 1 link[^first].</p>
+<p>Footnote 2 link[^second].</p>
+<p>Inline footnote^[Text of inline footnote] definition.</p>
+<p>Duplicated footnote reference[^second].</p>
+<p>[^first]: Footnote <strong>can have markup</strong></p>
+<pre><code>and multiple paragraphs.
+</code></pre>
+<p>[^second]: Footnote text.</p>
+<h3 id="definition-lists"><a href="https://github.com/markdown-it/markdown-it-deflist">Definition lists</a></h3>
+<p>Term 1</p>
+<p>:   Definition 1
+with lazy continuation.</p>
+<p>Term 2 with <em>inline markup</em></p>
+<p>:   Definition 2</p>
+<pre><code>    { some code, part of Definition 2 }
+
+Third paragraph of definition 2.
+</code></pre>
+<p><em>Compact style:</em></p>
+<p>Term 1
+  ~ Definition 1</p>
+<p>Term 2
+  ~ Definition 2a
+  ~ Definition 2b</p>
+<h3 id="abbreviations"><a href="https://github.com/markdown-it/markdown-it-abbr">Abbreviations</a></h3>
+<p>This is HTML abbreviation example.</p>
+<p>It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.</p>
+<p>*[HTML]: Hyper Text Markup Language</p>
+<h3 id="custom-containers"><a href="https://github.com/markdown-it/markdown-it-container">Custom containers</a></h3>
+<p>::: warning
+<em>here be dragons</em>
+:::</p>
+</section>
+
+            </main>
+        </div>
+        <hr><footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+    </div>
+</footer>
+    </div>
+
+    
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="alertdialog" aria-modal="true" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog modal-lg" role="search">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="close btn btn-default btn-ghost" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p id="searchInputLabel">Type to start searching</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" aria-labelledby="searchInputLabel" placeholder="" id="mkdocs-search-query" title="Please enter search terms here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No document matches found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+
+</html>
